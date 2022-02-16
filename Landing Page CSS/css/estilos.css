@@ -26,6 +26,7 @@ body{
     position: relative;
     display:grid;
     grid-template-rows: 100px 1fr;
+    color: #fff;
 }
 
 .hero::before{
@@ -43,4 +44,42 @@ body{
 /*nav*/
 .nav{
     --paging-container:0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
 }
+
+.nav__title{
+    font-weight: 300;
+}
+
+.nav__link{
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+
+.nav_items{
+    list-style: none;
+}
+
+.nav___links{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__menu{
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+}
+
+.nav__img{
+    display: block;
+    width: 30px;
+}
+
