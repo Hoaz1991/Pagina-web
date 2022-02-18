@@ -109,5 +109,10 @@ body{
 .cta{
     display: inline-block;
     background-color: #2091f9;
+    justify-self: center;
+    color: white;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 30px;
 }
 
