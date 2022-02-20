@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Neonderthaw&family=Poppins:wght@300;400;600;700&family=Roboto:wght@100&display=swap');
 
 :root{
-    --paging-container: 100px 0;
-    --color-tile: #001A49;
+    --padding-container: 100px 0;
+    --color-title: #001A49;
 }
 
 
@@ -15,7 +15,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
-    padding: var(--paging-container);
+    padding: var(--padding-container);
 }
 
 .hero{
@@ -113,6 +113,47 @@ body{
     color: white;
     text-decoration: none;
     padding: 13px 30px;
-    border-radius: 30px;
+    border-radius: 32px;
 }
 
+/*About*/
+
+.about{
+    text-align: center;
+}
+.subtitle{
+  color: var(--color-title);
+  font-size: 2rem;
+  margin-bottom: 25px ;
+}
+
+.about__paragraph{
+    line-height: 1.7;
+}
+.about__main{
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+.about__icons{
+    display: grid;
+    gap: 1rem;
+    justify-items: center;
+    width: 260px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.about__icon{
+width: 40px;
+
+}
+
+/* Knowledge */
+.knowledge{
+    
+}
