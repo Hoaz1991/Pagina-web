@@ -118,19 +118,22 @@ body{
 
 /*About*/
 
-.about{
+.about {
     text-align: center;
 }
-.subtitle{
-  color: var(--color-title);
-  font-size: 2rem;
-  margin-bottom: 25px ;
+
+.subtitle {
+    color: var(--color-title);
+    font-size: 2rem;
+    margin-bottom: 25px;
 }
 
-.about__paragraph{
+
+.about__paragraph {
     line-height: 1.7;
 }
-.about__main{
+
+.about__main {
     padding-top: 80px;
     display: grid;
     width: 90%;
@@ -140,17 +143,18 @@ body{
     grid-template-columns: repeat(auto-fit, minmax(260px, auto));
 }
 
-.about__icons{
+
+.about__icons {
     display: grid;
-    gap: 1rem;
+    gap: 1em;
     justify-items: center;
     width: 260px;
     overflow: hidden;
     margin: 0 auto;
 }
-.about__icon{
-width: 40px;
 
+.about__icon {
+    width: 40px;
 }
 
 /* Knowledge */
@@ -200,14 +204,26 @@ overflow: hidden;
     background-color: #e5e5f7;
     text-align: center;
     border-radius: 10px;
+    width: 330px;
     padding: 40px;
     --color-plan: #696871;
     --color-price: #1D293F;
     --bg-cta: #fff;
     --color-cta: #5454D4;
     --color-items: #696871;
-
 }
+
+.price__element--best{
+    width: 370px;
+    padding: 60px 40px;
+    background-color: #FF7143;
+    --color-plan: rgb(255 255 255 / 75%);
+    --color-price: #fff;
+    --bg-cta: #9F3919;
+    --color-cta: #FFF;
+    --color-items: #fff;
+}
+
 
 .price__name{
     color: var(--color-plan);
@@ -215,11 +231,11 @@ overflow: hidden;
     font-weight: 300;
 }
 
-.plan__price{
+.price__price{
     font-size: 2.5rem;
     color: var(--color-price);
-
 }
+
 .price__items{
     margin-top: 35px;
     display: grid;
@@ -227,5 +243,16 @@ overflow: hidden;
     font-weight: 300;
     font-size: 1.2rem;
     margin-bottom: 50px;
-    color: #fff;
+    color: var(--color-items);
+}
+
+.price__cta{
+    display: block;
+    padding: 20px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: var(--bg-cta);
+    font-weight: 600;
+    color: var(--color-cta);
+    box-shadow: 0 0 1px rgba(0, 0, 0, .5);
 }
