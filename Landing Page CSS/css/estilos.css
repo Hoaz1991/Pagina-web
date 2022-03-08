@@ -128,11 +128,11 @@ body{
     margin-bottom: 25px;
 }
 
-
+/*
 .about__paragraph {
     line-height: 1.7;
 }
-
+*/
 .about__main {
     padding-top: 80px;
     display: grid;
@@ -258,7 +258,7 @@ overflow: hidden;
 }
 /*testimony*/
 .testimony{
-    background-color: #e5e5f7;
+    background-color: #ffffff;
 }
 
 .testimony__container{
@@ -311,10 +311,12 @@ overflow: hidden;
 /* questions */
 
 .questions{
+    background-color: #e5e5f7;
     text-align: center;
 }
 
 .questions__container{
+    
     display: grid;
     gap: 2em;
     padding-top: 50px;
